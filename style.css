@@ -1,0 +1,212 @@
+body{
+    font-family: Montserrat;
+    font-size: 20px;
+    /* background-image: url(../24.sept/mark_drawing_compressed.jpeg);
+    background-repeat: no-repeat;
+    background-position: 0px 120px;
+    background-attachment: fixed;
+    background-size: contain; */
+    background: url(../24.sept/img/mark_drawing_compressed.jpeg) no-repeat 0 100px, url(../24.sept/img/cover_right_compressed.jpeg) 100% 80px no-repeat ;
+}
+
+/* .wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.main{
+    flex: 1 1 auto;
+} */
+
+main{
+    margin-bottom: 40%;
+}
+
+/* ------------------------------- */
+.header__container, .main__container, .footer__container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+/* ------------------------------- */
+
+
+
+
+.header {
+    margin-bottom: 100px;
+
+}
+.header__container {
+    max-width: 100%;
+}
+.header__content {
+    display: inline-block;
+    padding: 30px;
+    
+
+}
+.header__logo span {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+
+}
+
+.header__logo{
+    display: inline-block;
+    margin: 0 50px 0 0;
+
+    
+    
+}
+
+.header__menu {
+    display: inline-block;
+
+
+
+}
+.menu__item {
+    display: inline-block;
+    margin-right: 30px;
+}
+.menu__link {
+}
+
+.link__school{
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: brown;
+}
+
+.header__menu ~ p{
+    font-size: 18px;
+}
+
+/* ------------------------------- */
+
+.main__content h1{
+text-align: center;
+font-weight: 700;
+font-size: 65px;
+line-height: 80px;
+margin-bottom: 40px;
+}
+
+.main__content p a{
+    color: #1B93C4;
+    font-family: "Librecaslontext";
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.main__content p{
+    padding: 0 50px;
+    text-align: center;
+}
+
+.main__description{
+    margin-bottom: 30px;
+}
+
+.main__description + p{
+    font-weight: 700;
+    margin-bottom: 50px;
+    
+}
+.main__description + p a{
+    font-family: Montserrat;
+}
+
+
+
+h1 ~ p{
+    line-height: 1.5;
+}
+
+.main__subtitle + div{
+text-align: center;
+
+}
+
+.main__subtitle + div > a{
+    border: 3px solid #000;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.main__button-one ~ a{
+    background-color: #000;
+    color: white;
+}
+
+/* ------------------------------- */
+
+.footer{
+    background-color: #000;
+    color: white;
+    padding-top: 70px;
+    background-image: url(../24.sept/img/edge_up_compressed.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.footer__info > ul > li{
+    display: inline-block;
+    font-size: 16px;
+    text-align: end;
+}
+.footer__info{
+    text-align: end;
+
+}
+
+
+.footer__container + .footer-copy__content > p{
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+.footer__content h2{
+    text-align: center;
+    font-size: 38px;
+    line-height: 1.31;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.footer__title + div > p{
+    line-height: 1.35;
+}
+
+.footer__description{
+    margin-bottom: 40px;
+}
+
+.footer__description .central__p{
+    margin: 20px 0;
+}
+
+.footer__description + .link__footer > a{
+    font-weight: 700;
+    font-size: 19px;
+    background-color: rgb(143, 0, 0);
+    color: white;
+    padding: 10px 20px;
+}
+
+.footer__description + .link__footer{
+    text-align: center;
+    
+}
+
+.footer__container + div{
+    padding: 100px 0 0 0;
+}
+
+

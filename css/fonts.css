@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: "Librecaslontext";
+    src: url(../24.sept/fonts/librecaslontext-regular-a45bbcd6ddf142e1cf4ca12172755a8d.woff2) format("woff2"), url(../24.sept/fonts/librecaslontext-regular-woff.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Librecaslontext";
+    src: url(../24.sept/fonts/librecaslontext-italic-32f1273a4ce258c40b1e7389a49c4dd1.woff2) format("woff2"), url(../24.sept/fonts/librecaslontext-italic-woff.woff) format("woff");
+    font-display: swap;
+    font-style: italic;
+    font-weight: 400;
+}
